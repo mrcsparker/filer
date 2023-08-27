@@ -9,3 +9,5 @@ p metadata.len
 metadata = Filer::metadata("README.md")
 p metadata.is_file
 p metadata.len
+
+# Filer::write("/tmp/foo.txt", "Hello World!")
